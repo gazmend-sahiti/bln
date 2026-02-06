@@ -31,7 +31,8 @@ $apiKey = 'YOUR_API_KEY_HERE';
 
 $ideogram = Ideogram::make($apiKey);
 
-$prompt = 'Pretty eyes';
+// $prompt = 'black pretty eyes';
+$prompt = 'an Asian street bar in mid July with neon signs, 2 people sitting at stools, and bartenders serving drinks';
 
 $image = $ideogram->generateImage($prompt);
 
